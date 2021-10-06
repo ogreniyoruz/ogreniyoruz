@@ -7,6 +7,10 @@
     <title>Test php</title>
 </head>
 <body>
-    
+    <?php
+
+    phpinfo();
+
+    ?>
 </body>
 </html>
