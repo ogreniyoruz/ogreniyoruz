@@ -10,5 +10,19 @@
 
 <h1>Üyeler başlığı eklendi</h1>
 
+<ol>
+
+<?php 
+
+$uyeler = ["x","y","z"];
+
+foreach($uyeler as $uye): ?>
+    
+    <li><?=$uye?></li>
+
+<?php endforeach;?>
+
+</ol>
+
 </body>
 </html>
